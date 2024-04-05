@@ -60,6 +60,7 @@ jobs:
           dependency_type: minimum
       - name: Run the unit tests
         run: |
+          python -m pip install ".[test]"
           python -m pytest -vv || python -m pytest -vv --lf
 
   test_prereleases:
