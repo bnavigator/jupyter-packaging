@@ -44,7 +44,6 @@ from setuptools.command.bdist_egg import bdist_egg
 from setuptools.command.develop import develop
 from setuptools.command.sdist import sdist
 
-
 try:
     from setuptools.command.bdist_wheel import bdist_wheel
 except ImportError:  # pragma: no cover
